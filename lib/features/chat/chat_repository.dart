@@ -10,3 +10,4 @@ class ChatRepository {
       apiClient.askStream(message, history);
   Future<bool> health() => apiClient.health();
 }
+

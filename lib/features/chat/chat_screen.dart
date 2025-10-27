@@ -38,7 +38,7 @@ class ChatScreen extends StatelessWidget {
                     final m = ctrl.messages[index];
                     return MessageBubble(
                       role: m.role,
-                      content: m.content, // ✅ Solo texto limpio
+                      content: m.content,
                     );
                   }
                   return const TypingIndicator();
